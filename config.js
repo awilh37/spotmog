@@ -10,9 +10,9 @@ const backendUrl = (() => {
   
   // Production (GitHub Pages) - Using ngrok tunnel
   if (window.location.hostname === 'awilh37.github.io') {
-    return 'https://rand0m.tplinkdns.com/spotmog'; 
+    return 'https://rand0m.tplinkdns.com/spotlily';
   }
   
   // Fallback
-  return 'https://rand0m.tplinkdns.com/spotmog';
+  return 'https://rand0m.tplinkdns.com/spotlily';
 })();
